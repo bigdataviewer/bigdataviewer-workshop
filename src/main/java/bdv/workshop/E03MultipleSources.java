@@ -3,6 +3,9 @@ package bdv.workshop;
 import bdv.util.Bdv;
 import bdv.util.BdvFunctions;
 import bdv.util.BdvSource;
+import bvv.util.Bvv;
+import bvv.util.BvvFunctions;
+import bvv.util.BvvSource;
 import net.imglib2.RandomAccessible;
 import net.imglib2.img.Img;
 import net.imglib2.type.numeric.ARGBType;
@@ -40,11 +43,11 @@ public class E03MultipleSources
 		 *
 		 * Here, we show an unbounded RandomAccessible.
 		 */
-		final RandomAccessible< UnsignedByteType > infinite = Views.extendPeriodic( img );
-		final BdvSource source3 = BdvFunctions.show(
-				infinite, // infinite image
-				img, // just the interval to show in overview box
-				"infinite heads", Bdv.options().addTo( source ) );
-		source3.setColor( new ARGBType( 0xff0000ff ) );
+//		final RandomAccessible< UnsignedByteType > infinite = Views.extendPeriodic( img );
+//		final BdvSource source3 = BdvFunctions.show(
+//				infinite, // infinite image
+//				img, // just the interval to show in overview box
+//				"infinite heads", Bdv.options().addTo( source ) );
+//		source3.setColor( new ARGBType( 0xff0000ff ) );
 	}
 }

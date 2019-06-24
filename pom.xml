@@ -79,7 +79,7 @@
 		<license.projectName>BigDataViewer Workshop.</license.projectName>
 
 		<bigdataviewer-core.version>7.0.0</bigdataviewer-core.version>
-		<bigdataviewer-vistools.version>1.0.0-beta-15</bigdataviewer-vistools.version>
+		<bigdataviewer-vistools.version>1.0.0-beta-17</bigdataviewer-vistools.version>
 		<imglib2.version>5.8.0</imglib2.version>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
@@ -98,11 +98,15 @@
 			<groupId>sc.fiji</groupId>
 			<artifactId>bigdataviewer-vistools</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>simplified-io</artifactId>
 			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>bigvolumeviewer</artifactId>
+			<version>0.1.5</version>
 		</dependency>
 
 		<!-- ImageJ dependencies -->
